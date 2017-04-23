@@ -1,6 +1,18 @@
 // Clean up the code below with a single function called `personalIntroduction`
 // The new code should have the exact same functionality and output.
 
+function personalIntroduction(name, height, favoriteColor) {
+  console.log("My name is " + name + ", and my height is " + height + ", and my favorite color is " + favoriteColor);
+};
+
+console.log("Single function version");
+personalIntroduction("Bob", "72", "red");
+personalIntroduction("Samantha", "65", "orange");
+personalIntroduction("Christofer", "69", "green");
+personalIntroduction("Tamera", "63", "blue");
+
+console.log();
+console.log("Repetitive version");
 var name = "Bob";
 var height = "72";
 var favoriteColor = "red";
